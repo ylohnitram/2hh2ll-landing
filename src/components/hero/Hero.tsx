@@ -8,16 +8,16 @@ export default function Hero() {
       <div className="container mx-auto text-center">
         <div className="max-w-3xl mx-auto space-y-8">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-            Objevte sílu tradingu s metodou 2HH2LL
+            Discover the Power of Trading with the 2HH2LL Method
           </h1>
           <p className="text-xl text-gray-600">
-            Jedinečná obchodní strategie, která vám pomůže dosáhnout konzistentních výsledků na finančních trzích
+            A Unique Trading Strategy to Help You Achieve Consistent Results in Financial Markets
           </p>
           <div className="flex justify-center gap-4">
             <Button size="lg" asChild>
               <a href="#subscribe">
                 <TrendingUp className="mr-2 h-5 w-5" />
-                Chci vědět více
+                Learn More
               </a>
             </Button>
           </div>
@@ -26,3 +26,4 @@ export default function Hero() {
     </div>
   );
 }
+

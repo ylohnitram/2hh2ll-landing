@@ -4,18 +4,18 @@ import { ChartBar, TrendingUp, ChartLine } from "lucide-react";
 
 const features = [
   {
-    title: "Přesná Analýza",
-    description: "Využijte sílu metody 2HH2LL pro přesnou identifikaci obchodních příležitostí",
+    title: "Precise Analysis",
+    description: "Leverage the 2HH2LL method to identify trading opportunities with high precision",
     icon: ChartBar,
   },
   {
-    title: "Řízení Rizika",
-    description: "Chraňte svůj kapitál pomocí osvědčených technik řízení rizika",
+    title: "Risk Management",
+    description: "Protect your capital with proven risk management techniques",
     icon: TrendingUp,
   },
   {
-    title: "Konzistentní Výsledky",
-    description: "Dosáhněte stabilních výsledků díky systematickému přístupu k tradingu",
+    title: "Consistent Results",
+    description: "Achieve stable results through a systematic approach to trading",
     icon: ChartLine,
   },
 ];
@@ -41,3 +41,4 @@ export default function Features() {
     </div>
   );
 }
+

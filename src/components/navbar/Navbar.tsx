@@ -11,10 +11,11 @@ export default function Navbar() {
             <img src="/logo.png" alt="2HH2LL Logo" className="h-8" />
           </Link>
           <Button variant="outline" asChild>
-            <a href="#subscribe">Začít</a>
+            <a href="#subscribe">Get Started</a>
           </Button>
         </div>
       </div>
     </nav>
   );
 }
+
